@@ -47,11 +47,10 @@ const Booking: React.FC = () => {
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
 
   const simulators = [
-    { id: "pro-1", name: "Pro Simulator #1", pricePerHour: 400 },
-    { id: "pro-2", name: "Pro Simulator #2", pricePerHour: 400 },
-    { id: "premium-1", name: "Premium Simulator #1", pricePerHour: 600 },
-    { id: "premium-2", name: "Premium Simulator #2", pricePerHour: 600 },
-    { id: "vip", name: "VIP Simulator", pricePerHour: 800 },
+    { id: "pro-1", name: "Pro Simulator #1", pricePerHour: 250 },
+    { id: "pro-2", name: "Pro Simulator #2", pricePerHour: 250 },
+    { id: "pro-3", name: "Pro Simulator #3", pricePerHour: 250 },
+    { id: "pro-4", name: "Pro Simulator #4", pricePerHour: 250 },
   ];
 
   const durations = [
@@ -395,6 +394,7 @@ const Booking: React.FC = () => {
                     flex: 1,
                     display: "flex",
                     flexDirection: "column",
+                    minHeight: "245px",
                   }}
                 >
                   <CardContent
