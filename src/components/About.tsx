@@ -13,8 +13,8 @@ import React from "react";
 const About: React.FC = () => {
   const stats = [
     { icon: <Psychology />, value: "500+", label: "Задоволених клієнтів" },
-    { icon: <Groups />, value: "15", label: "Професійних симуляторів" },
-    { icon: <Timer />, value: "24/7", label: "Режим роботи" },
+    { icon: <Groups />, value: "4", label: "Професійних симуляторів" },
+    { icon: <Timer />, value: "11:00 - 01:00", label: "Режим роботи" },
     { icon: <TrendingUp />, value: "98%", label: "Позитивних відгуків" },
   ];
 
