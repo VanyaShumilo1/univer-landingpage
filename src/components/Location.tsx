@@ -37,7 +37,7 @@ const Location: React.FC = () => {
 
   const workingHours = [
     { day: "Понеділок - Неділя", time: "11:00 - 01:00" },
-    { day: "Свята", time: "10:00 - 23:00" },
+    { day: "Свята", time: "11:00 - 23:00" },
   ];
 
   const transportOptions = [
