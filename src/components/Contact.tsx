@@ -35,14 +35,14 @@ const Contact: React.FC = () => {
     {
       icon: <Phone />,
       title: "Телефон",
-      value: "+38 (044) 123-45-67",
-      action: () => window.open("tel:+380441234567"),
+      value: "+38 (050) 238-34-26",
+      action: () => window.open("tel:+380502383426"),
     },
     {
       icon: <Email />,
       title: "Email",
-      value: "info@f1club.ua",
-      action: () => window.open("mailto:info@f1club.ua"),
+      value: "f1clubuzhhorod@gmail.com",
+      action: () => window.open("mailto:f1clubuzhhorod@gmail.com"),
     },
     {
       icon: <Telegram />,
@@ -367,7 +367,7 @@ const Contact: React.FC = () => {
                       наявності вільних місць
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Працюємо щодня з 10:00 до 23:00
+                      Працюємо щодня з 11:00 до 01:00
                     </Typography>
                   </CardContent>
                 </Card>

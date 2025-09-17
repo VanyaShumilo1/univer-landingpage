@@ -204,7 +204,7 @@ const Gallery: React.FC = () => {
                     variant="h3"
                     sx={{ color: "primary.main", fontWeight: "bold" }}
                   >
-                    8
+                    4
                   </Typography>
                   <Typography variant="body1" color="text.secondary">
                     Симуляторів
