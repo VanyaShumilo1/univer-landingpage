@@ -101,6 +101,7 @@ const Header: React.FC = () => {
               aria-label="open drawer"
               edge="start"
               onClick={handleDrawerToggle}
+              sx={{ ml: "auto" }}
             >
               <MenuIcon />
             </IconButton>
